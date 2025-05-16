@@ -9,7 +9,9 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8080
+          issuer-uri: http://localhost:8081
+          secret-key: V3RyK0tPVVRBY0lnc2ZKakxrVnB2cXVUS3ZOTVpOQjJjSkJ1WE9qSVk3S2RSNzBNM1ZGQzFVVHkwQjYzRkg2U2s=
+
 
   datasource:
     url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE

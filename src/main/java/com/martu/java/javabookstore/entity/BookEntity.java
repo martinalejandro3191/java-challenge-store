@@ -11,7 +11,8 @@ import lombok.RequiredArgsConstructor;
 @Entity
 @Table(name = "books", uniqueConstraints = {
         @UniqueConstraint(columnNames = {"title", "author"})
-})public class BookEntity {
+})
+public class BookEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
